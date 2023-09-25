@@ -4,7 +4,7 @@ mod random;
 
 fn main() {
     println!("Hello, world!");
-    println!("Your random number is {}", random::random());
+    println!("Your somehwat random number is {}", random::random());
     thread::sleep(time::Duration::MAX);
 }
 
